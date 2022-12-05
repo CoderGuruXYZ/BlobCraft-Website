@@ -1,5 +1,5 @@
 var nav = document.querySelector("nav");
-var navTop = document.querySelector("navTop");
+var navTop = document.querySelector(".navTop");
 
 function loadAll() {
     $("nav").html("");
