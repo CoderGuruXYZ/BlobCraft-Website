@@ -21,3 +21,5 @@ function loadAll() {
         navTop.appendChild(link);
     }
 }
+
+loadAll();
