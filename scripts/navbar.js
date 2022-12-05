@@ -2,14 +2,12 @@ var nav = document.querySelector(".nav");
 var navTop = document.querySelector(".navTop");
 
 function loadAll() {
-    console.log("func started");
     $("nav").html("");
 
-    var names = ["Home", "Discord", "Client"];
-    var links = ["index.html", "discord.html", "client.html"];
+    var names = ["Home", "Discord", "Client", "More IPS"];
+    var links = ["index.html", "discord.html", "client.html", "ips.html"];
 
     for(i = 0; i < names.length; i++) {
-        console.log("Loop started");
         var link = document.createElement("div");
         link.classList.add("link");
         
@@ -22,8 +20,6 @@ function loadAll() {
 
         navTop.appendChild(link);
     }
-
-    // alert(navTop.innerHTML)
 }
 
 loadAll();
