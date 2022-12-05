@@ -22,6 +22,8 @@ function loadAll() {
 
         navTop.appendChild(link);
     }
+
+    // alert(navTop.innerHTML)
 }
 
 loadAll();
