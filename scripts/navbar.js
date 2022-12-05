@@ -1,4 +1,4 @@
-var nav = document.querySelector("nav");
+var nav = document.querySelector(".link");
 var navTop = document.querySelector(".navTop");
 
 function loadAll() {
