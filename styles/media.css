@@ -6,6 +6,10 @@
     .navTop {
         z-index: 100;
     }
+    
+    .title {
+        font-size: 60px;
+    }
 
     .content {
         width: 90%;
