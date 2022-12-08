@@ -32,6 +32,8 @@ body {
 .contentInfo {
     margin-top: 10px;
 
+    max-width: 70%;
+
     font-size: 17px;
 }
 

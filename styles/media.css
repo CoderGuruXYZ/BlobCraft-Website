@@ -1,0 +1,36 @@
+@media (max-width: 960px) {
+    .nav {
+        height: 40vh;
+    }
+
+    .navTop {
+        z-index: 100;
+    }
+
+    .content {
+        width: 90%;
+
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contentInfo {
+        max-width: 100%;
+    }
+
+    .contentLogo {
+        display: none;
+    }
+
+    .section {
+        height: min-content;
+    }
+
+    .infoBox {
+        margin-left: 0;
+    }
+
+    .infoPiece {
+        width: 100%;
+    }
+}
