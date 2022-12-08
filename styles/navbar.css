@@ -4,8 +4,12 @@
 
     background-image: url('/images/background.jpg'); 
     background-size: cover;
+    
+    display: block;
 
     position: relative;
+    
+    margin-bottom: 15px;
 }
 
 .navTop {
